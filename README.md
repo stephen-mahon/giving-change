@@ -9,4 +9,4 @@ Write a function to return the number of coins you use to make a given amount of
 ``` change(0) => 0
 change(12) => 3
 change(468) => 11
-change(123456) => 254 ```
+change(123456) => 254
