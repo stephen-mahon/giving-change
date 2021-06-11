@@ -10,7 +10,7 @@ func main() {
 	args := os.Args[1:]
 	if len(args) == 1 && args[0] == "/help" {
 		fmt.Println("Number of coins returned from denominations of 1, 5, 10, 25, 100, and 500 units")
-		fmt.Println("Usage: change-given <Total ammount>")
+		fmt.Println("Usage: change <Total ammount>")
 		fmt.Println("Example: change 12")
 	} else {
 		if len(args) != 1 {
